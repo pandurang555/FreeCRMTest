@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="732.848" tests="13" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pandurang\eclipse-workspace\FreeCRMTest\target\test-classes;C:\Users\Pandurang\eclipse-workspace\FreeCRMTest\target\classes;C:\Users\Pandurang\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Pandurang\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Pandurang\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Pandurang\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Pandurang\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Pandurang\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Pandurang\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Pandurang\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Pandurang\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Pandurang\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Pandurang\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Pandurang\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Pandurang\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Pandurang\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Pandurang\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Pandurang\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Pandurang\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Pandurang\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Pandurang\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Pandurang\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Pandurang\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Pandurang\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Pandurang\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Pandurang\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\PANDUR~1\AppData\Local\Temp\surefire18108348214943069776\surefirebooter6498594185385909658.jar C:\Users\Pandurang\AppData\Local\Temp\surefire18108348214943069776 2021-08-19T13-05-11_276-jvmRun1 surefire10365099004579041064tmp surefire_08520804729848564519tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pandurang\eclipse-workspace\FreeCRMTest\target\test-classes;C:\Users\Pandurang\eclipse-workspace\FreeCRMTest\target\classes;C:\Users\Pandurang\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Pandurang\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Pandurang\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Pandurang\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Pandurang\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Pandurang\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Pandurang\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Pandurang\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Pandurang\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Pandurang\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Pandurang\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Pandurang\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Pandurang\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Pandurang\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Pandurang\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Pandurang\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Pandurang\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Pandurang\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Pandurang\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Pandurang\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Pandurang\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Pandurang\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Pandurang\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Pandurang\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Pandurang\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Pandurang\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pandurang"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pandurang\eclipse-workspace\FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PANDUR~1\AppData\Local\Temp\surefire18108348214943069776\surefirebooter6498594185385909658.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="Pandurang"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pandurang\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PANDUR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\Pandurang\eclipse-workspace\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Pandurang\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pandurang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Pandurang\AppData\Local\Programs\Python\Python39\;C:\Users\Pandurang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pandurang\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifyContactsPageLabelTest" classname="com.qa.testcases.ContactsPageTest" time="5.275"/>
+  <testcase name="selectContactsTest" classname="com.qa.testcases.ContactsPageTest" time="1.763"/>
+  <testcase name="validateCreateNewContact" classname="com.qa.testcases.ContactsPageTest" time="8.433"/>
+  <testcase name="validateCreateNewContact" classname="com.qa.testcases.ContactsPageTest" time="11.471"/>
+  <testcase name="validateCreateNewContact" classname="com.qa.testcases.ContactsPageTest" time="13.261">
+    <failure message="Cannot invoke &quot;com.crm.qa.util.TestUtil.takeScreenshotAtEndOfTest()&quot; because &quot;com.crm.qa.util.WebEventListener.TestUtil&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.crm.qa.util.TestUtil.takeScreenshotAtEndOfTest()" because "com.crm.qa.util.WebEventListener.TestUtil" is null
+	at com.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:61)
+</failure>
+    <system-out><![CDATA[Before Navigating to: 'https://ui.cogmento.com/'
+Navigated to: 'https://ui.cogmento.com/'
+Trying to click on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="ui"]/div/div/form/div/div[3]]
+clicked on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="ui"]/div/div/form/div/div[3]]
+Trying to click on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+clicked on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+Trying to click on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+clicked on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+Trying to click on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+clicked on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="main-nav"]/div[3]/a/span]
+Trying to click on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+clicked on : [[ChromeDriver: chrome on WINDOWS (7f31e0e5885db16c974eb5f3f728d9d0)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Exception Occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-83DRFKP', ip: '192.168.43.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PANDUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f31e0e5885db16c974eb5f3f728d9d0
+*** Element info: {Using=name, value=first_name}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 38145
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629358917.818][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 19, 2021 1:12:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.qa.testcases.ContactsPageTest" time="6.668"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.qa.testcases.HomePageTest" time="0.021"/>
+  <testcase name="verifyUserNameTest" classname="com.qa.testcases.HomePageTest" time="9.279"/>
+  <testcase name="verifyHomePagecrmLOGOTest" classname="com.qa.testcases.HomePageTest" time="4.615"/>
+  <testcase name="verifyContactsLinkTest" classname="com.qa.testcases.HomePageTest" time="6.068"/>
+  <testcase name="loginPageTitleTest" classname="com.qa.testcases.LoginPageTest" time="0.031"/>
+  <testcase name="ForgotPwdLinkTest" classname="com.qa.testcases.LoginPageTest" time="0.589"/>
+  <testcase name="loginTest" classname="com.qa.testcases.LoginPageTest" time="13.098"/>
+</testsuite>

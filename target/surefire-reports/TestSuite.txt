@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 732.848 s <<< FAILURE! - in TestSuite
+validateCreateNewContact(com.qa.testcases.ContactsPageTest)  Time elapsed: 13.261 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.crm.qa.util.TestUtil.takeScreenshotAtEndOfTest()" because "com.crm.qa.util.WebEventListener.TestUtil" is null
+	at com.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:61)
+
